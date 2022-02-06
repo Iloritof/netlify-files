@@ -1,0 +1,724 @@
+/*  Start of default reset  */
+
+*,
+*:link,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+*:link,
+*:active,
+*:visited,
+*:any-link {
+    color: #171717;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+
+    /*  Start of default Typography  */
+
+    color: #171717;
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.7;
+
+    padding: 1.5rem;
+}
+
+h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.row {
+    max-width: 129rem;
+    margin: auto;
+}
+
+.topbar {
+    position: relative;
+    height: 12.4rem;
+    border-bottom: .4rem solid rgba(0, 0, 0, 0.1);
+}
+
+.logobox {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.shopbox {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.titlebar {
+    position: relative;
+    margin: 5.8rem 0 0 0;
+    padding: 0 0 4.5rem;
+}
+
+.heading {
+    display: inline-block;
+}
+
+.btn {
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn-black {
+    color: #fff;
+    background-color: #171717;  
+}
+
+.btn-card {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.btn-head {
+    position: absolute;
+    right: 0;
+}
+
+.btn-white {
+    border: 3px solid rgba(0, 0, 0, 1);
+}
+
+.btn-fix {
+    display: block;
+    font-size: 2.3rem;
+}
+
+.herobox{
+    position: relative;
+    margin: 2.3rem 0 0;
+    padding-top: 42.8%;
+    background-image: url(../img/samurai-king-siting@0.5x.png);
+    background-size: cover;
+}
+
+.caption {
+    position: absolute;
+    padding: 2rem 5rem;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.section-about {
+    border-bottom: .4rem solid rgba(0, 0, 0, 0.1);
+}
+
+.about {
+    width: 69rem;
+}
+
+.about-category {
+    color: #656565;
+}
+
+.about-bodytext{
+    color: #656565;
+    font-size: 1.8rem;
+}
+
+.recommendation::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.recommendation-text {
+    display: block;
+    float: right;
+}
+
+.recommended-imgbox {
+    float: right;
+    margin-top: 3rem;
+}
+
+.recommended-imgs:not(:last-child) {
+    margin-right: 3.5rem;
+}
+
+.recommended-imgs {
+    width: 11.7rem;
+}
+
+.details {
+    float: right;
+    margin-top: 5.4rem;
+    padding-bottom: 2rem;
+    text-align: right;
+}
+
+.other-details {
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.explore-headingbar {
+    padding-top: 6.5rem;
+    margin-bottom: 5.8rem;
+}
+
+.explore-headingbar::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.explore-heading {
+    display: inline-block;
+}
+
+.explore-subheading{
+    color: #656565;
+    font-weight: 400;
+}
+
+.sort {
+    float: right;
+    font-size: 2.2rem;
+}
+
+.sortbox {
+    display: inline-block;
+    padding-right: 2rem;
+}
+
+.sortbox-text {
+    display: inline-block;
+    color: #9b9b9b;
+}
+
+.sortattribute {
+    display: inline-block;
+}
+
+.sort-select {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.sort-option {
+    font-size: 1.8rem;
+    margin: 1rem 2rem;
+}
+
+.filter-icon {
+    display: none;
+}
+
+/*  Card details    */
+
+.card-container:not(:last-child) {
+    margin-bottom: 5.2rem;
+}
+
+.card-preview {
+    position: relative;
+    padding-top: 140%;
+    background-size: cover;
+}
+
+.card-1 {
+    background-image: url(../img/red-bench.jpg);
+}
+
+.card-2 {
+    background-image: url(../img/man.jpg);
+}
+
+.card-3 {
+    background-image: url(../img/egg-balloon.jpg);
+}
+
+.card-4 {
+    background-image: url(../img/architecture.jpg);
+}
+
+.group {
+    color: #656565;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.card-title {
+    font-size: 3.4rem;
+    font-weight: 700;
+}
+
+.card-price {
+    color: #656565;
+    font-size: 2.9rem;
+}
+
+
+/*      Filter Settings     */
+
+.filter-section-1 {
+    border-bottom: .1rem solid #c2c2c2;
+}
+
+.filter-section-2 {
+    padding-top: 3.1rem;
+}
+
+.filter-title {
+    margin-bottom: 4rem;
+}
+
+.filter-item {
+    margin-bottom: 3.6rem;
+}
+
+.filter-checkbox {
+    visibility: hidden;
+}
+
+.filter-item-text {
+    cursor: pointer;
+    font-size: 2.2rem;
+    margin-left: -1.6rem;
+}
+
+.checkbox {
+    display: inline-block;
+    margin-right: 2.3rem;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #656565;
+    font-size: 1.1rem;
+}
+
+.checkbox-mark {
+    padding-bottom: 2px;
+    margin-left: 1px;
+    width: 11px;
+    color: #656565;
+    opacity: 0;
+}
+
+.filter-optional {
+    display: none;
+}
+
+/*      Filter Functionality     */
+
+.filter-checkbox:checked ~ .filter-item-text .checkbox-mark {
+    opacity: 1;
+}
+
+/*
+    media max width
+
+    37.5em - 600px
+    56.25em - 900px
+    75em - 1200px
+    112.5em - 1800px
+*/
+
+@media (max-width: 75em) { 
+    html{
+        font-size: 56.25%;
+    }
+
+    body {
+        padding: 5rem;
+    }
+
+    .about {
+        width: auto;
+    }
+
+    .recommended-imgs:not(:last-child) {
+        margin-right: 12px;
+    }
+
+    .filter-title {
+        margin-bottom: 1.2rem;
+    }
+
+    .filter-item {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 57.75em) {
+   .card-red {
+       margin-bottom: 11rem;
+   } 
+}
+
+@media (max-width: 56.25em) {
+    html {
+        font-size: 62.5%;
+    }
+    
+    body {
+        padding: 3.5rem;
+    }
+
+    .shopicon {
+        width: 4.5rem;
+    }
+
+    .herobox {
+        padding-top: 62.1%;
+    }
+
+    .recommendation {
+        position: relative;
+        margin: 4rem 0 0;
+    }
+
+    .recommendation-text {
+        float: none;
+    }
+
+    .recommended-imgbox {
+        float: none;
+    }
+
+    .details {
+        position: absolute;
+        margin-top: 0;
+        top: 0;
+        right: 0;
+    }
+
+    .sort {
+        display: none;
+    }
+
+    .filter-icon {
+        display: initial;
+        float: right;
+    }
+
+    .filter-popup {
+        display: none;
+        overflow-y: auto;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        z-index: 999;
+        top: 100vh;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.2);
+
+        transition: all 0.6s;
+    }
+
+    .filter-section {
+        position: relative;
+        margin-top: 8.8rem;
+        padding: 3.6rem;
+        background-color: #fff;
+    }
+
+    .filter-popup-heading {
+        margin-bottom: 2rem;
+    }
+
+    .close-popup {
+        position: absolute;
+        right: 3.6rem;
+    }
+
+    .checkbox {
+        width: 24px;
+        height: 24px;
+        font-size: 1.5rem;
+        border: 4px solid #656565;
+    }
+
+    .checkbox-mark {
+        margin-left: 0px;
+        width: 16px;
+    }
+
+    .filter-optional {
+        display: initial;
+    }
+
+    .checkbox-col {
+        width: 40px;
+        height: 40px;
+        font-size: 2rem;
+    }
+
+    .checkbox-mark-col {
+        width: 30px;
+        padding-top: 5px;
+    }
+
+    .card-container {
+        width: 50%;
+    }
+
+    .explore-main {
+        padding: 4rem 0 0;
+    }
+
+    .card-container:not(:last-child) {
+        margin: 0 auto 4rem;
+    }
+
+    .card-container:last-child {
+        margin: 0 auto 4rem;
+    }
+
+    .card-red {
+        margin: 0;
+    }
+
+
+    /*      Popup functionality     */
+
+    .filter-popup:target {
+        display: initial;
+        top: 0vh;
+    }
+}
+
+@media (max-width: 47.875em) {
+
+    .card-container {
+        width: 75%;
+    }
+}
+
+@media (max-width: 37.5em) {
+    body {
+        padding: 1.2rem;
+    }
+
+    .shopicon {
+        width: 3.2rem;
+    }
+
+    .titlebar {
+        padding: 0 0 9.7rem;
+    }
+
+    .caption {
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+    }
+
+    .btn-head {
+        width: 100%;
+        bottom: 3rem;
+    }
+
+    .recommended-imgs {
+        width: calc((100% - 35px) / 3);
+    }
+    .details {
+        position: relative;
+        margin-top: 5rem;
+        float: none;
+        text-align: left;
+    }
+
+    .explore-headingbar {
+        position: relative;
+        margin-bottom: 1rem;
+    }
+
+    .explore-heading {
+        font-size: 1.8rem;
+    }
+
+    .filter-icon {
+        position: absolute;
+        width: 2rem;
+        top: 7.2rem;
+        right: 0;
+    }
+
+    .card-container {
+        width: 95%;
+    }
+    
+}
+
+@media (max-width: 18.75em) {
+    .herobox {
+        padding-top: 100%;
+        background-position: 33%;
+    }
+
+    .caption {
+        padding: .5rem 1rem;
+    }
+
+    .card-container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 112.5em) {
+    
+}
+
+
+
+
+
+
+
+/*  Grid Layout    */
+
+.row {
+    max-width: 129rem;
+    margin: 0 auto;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class^="col-"] {
+    float: left;
+}
+
+[class^="col-"]:not(:last-child) {
+    margin-right: 4.8rem;
+}
+
+.col-1-of-2 {
+    width: calc((100% - 4.8rem) / 2);
+}
+
+.col-1-of-3 {
+    width: calc((100% - 10rem) / 3);
+}
+
+.col-1-of-4 {
+    width: calc((100% - 14.4rem) / 4);
+}
+
+@media (max-width: 56.25em) {
+    [class^="col-"] {
+        float: none;
+        width: 100%;
+    }
+
+    .col-1-of-3 {
+        width: calc((100% - 24rem) / 3);
+        float: left;
+        text-align: center;
+    }
+
+    .col-1-of-3:not(:last-child) {
+        margin-right: 12rem;
+    }
+
+    .checkbox-col {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .check-all {
+        margin: 0 0 0 3rem;
+    }
+
+    .black {
+        background-color: black;
+    }
+
+    .blue {
+        background-color: blue;
+    }
+
+    .purple {
+        background-color: purple;
+    }
+
+    .green {
+        background-color: green;
+    }
+
+    .yellow {
+        background-color: yellow;
+    }
+
+    .red {
+        background-color: red;
+    }
+
+    .orange {
+        background-color: orange;
+    }
+
+    .pink {
+        background-color: pink;
+    }
+
+    .filter-section-4 {
+        position: fixed;
+        display: block;
+        width: 100%;
+        height: 10rem;
+        left: 0;
+        bottom: 0;
+        z-index: 1999;
+        padding: 2rem 4rem;
+        background-color: #fff;
+    }
+
+    .col-1-of-2-fix {
+        width: calc((100% - 4.8rem) / 2);
+        float: left;
+    }
+
+    .filter-section-3 {
+        padding-bottom: 6rem;
+    }
+}
+
