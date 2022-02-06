@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Behamas</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- script import -->
+    <script src="assets/js/jquery.min.js"></script>
+
+    <div class="row">
+        <header class="header">
+            <div class="topbar">
+                <div class="logobox">
+                    <img src="assets/img/logo.png" alt="logo" class="logo">
+                </div>
+                <div class="shopbox">
+                    <img src="assets/img/shopping-cart.png" alt="shopping cart" class="shopicon">
+                </div>
+            </div>
+
+            <div class="titlebar">
+                <h1 class="heading">Samurai King Resting</h1>
+                <a href="" class="btn btn-black btn-head">Add to cart</a>
+
+                <div class="herobox">
+                    <!--
+                        <img src="assets/img/pexels-evgeny-tchebotarev-2187304 (1) 1@0.5x.png" alt="hero" class="hero">
+                    -->
+                    <span class="caption">Photo of the day</span>
+                </div>
+            </div>
+
+        </header>
+
+        <section class="section-about">
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="about">
+                        <h3 class="about-heading">
+                            About the Samurai King Resting
+                        </h3>
+        
+                        <h3 class="about-category">Pets</h3>
+        
+                        <p class="about-bodytext">
+                            So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book.So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book.So how did the classical Latin become so incoherent? According to McClintock.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-1-of-2">
+                    <div class="recommendation">
+                        <div class="clearfix">
+                            <h3 class="recommendation-text">
+                                People also buy
+                            </h3>
+                        </div>
+    
+                        <div class="clearfix">
+                            <div class="recommended-imgbox">
+                                <img src="assets/img/yellow-silhoute.png" alt="" class="recommended-imgs first">
+                                <img src="assets/img/floral-crest.png" alt="" class="recommended-imgs second">
+                                <img src="assets/img/egg-balloon-small.png" alt="" class="recommended-imgs third">
+                            </div>        
+                        </div>
+                        
+                        <div class="details">
+                            <h3 class="details-heading">Details</h3>
+                            <p class="other-details">Size: 1020 x 1020 pixel<br>Size: 15 mb</p>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+            
+        </section>
+
+        <section class="section-explore" id="explore">
+            <div class="explore-headingbar">
+                <h2 class="explore-heading">
+                    Photography / <span class="explore-subheading">Premium Photos</span>
+                </h2>
+
+                <div class="sort">
+                    <div class="sortbox">
+                        <img src="assets/img/sort-icon.svg" alt="sort-icon" class="sort-icon">
+                        <p class="sortbox-text">Sort</p>
+                    </div>
+                    <div class="sortattribute">
+                        <select name="sort-select" id="sort-select" class="sort-select">
+                            <option value="1" class="sort-option">Price</option>
+                            <option value="2" class="sort-option">Category</option>
+                            <option value="3    " class="sort-option">Size</option>
+                        </select>
+
+                        <!--
+                            Not fuctional
+                            <p class="sortvalue">Price</p>
+                            <img src="assets/img/dropdown-icon.svg" alt="dropdown-icon" class="dropdown-icon">
+                        -->
+                    </div>
+                </div>
+
+                <a href="#popup" class="popup-toogle">
+                    <img src="assets/img/filter.svg" alt="filter-icon" class="filter-icon">
+                </a>
+            </div>
+
+            <div class="explore-main">
+                <div class="row">
+                    <div class="col-1-of-4">
+                        <div class="filter-popup" id="popup">
+                            <div class="filter-section">
+
+                                <div class="filter-optional">
+                                    <h2 class="filter-popup-heading">
+                                        Filter
+                                        <a href="#explore" class="close-popup">
+                                            <img src="assets/img/close.svg" alt="close-button" class="close-icon">
+                                        </a>
+                                    </h2>
+                                </div>
+                                
+                                <div class="filter-section-1">
+                                    <h3 class="filter-title">
+                                        Category
+                                    </h3>
+                                    <div class="filter-item">
+                                        <input type="checkbox" name="categories" id="people" class="filter-checkbox">
+                                        <label for="people" class="filter-item-text">
+                                            <span class="checkbox">
+                                                <img src="assets/img/mark.svg" alt="checkbox" class="checkbox-mark">
+                                            </span>
+                                            People
+                                        </label>
+                                    </div>
+        
+                                    <div class="filter-item">
+                                        <input type="checkbox" name="categories" id="premium" class="filter-checkbox">
+                                        <label for="premium" class="filter-item-text">
+                                            <span class="checkbox">
+                                                <img src="assets/img/mark.svg" alt="checkbox" class="checkbox-mark">
+                                            </span>
+                                            Premium
+                                        </label>
+                                    </div>
+        
+                                    <div class="filter-item">
+                                        <input type="checkbox" name="categories" id="pets" class="filter-checkbox">
+                                        <label for="pets" class="filter-item-text">
+                                            <span class="checkbox">
+                                                <img src="assets/img/mark.svg" alt="checkbox" class="checkbox-mark">
+                                            </span>
+                                            Pets
+                                        </label>
+                                    </div>
+        
+                                    <div class="filter-item">
+                                        <input type="checkbox" name="categories" id="food" class="filter-checkbox">
+                                        <label for="food" class="filter-item-text">
+                                            <span class="checkbox">
+                                                <img src="assets/img/mark.svg" alt="checkbox" class="checkbox-mark">
+                                            </span>
+                                            Food
+                                        </label>
+                                    </div>
+        
+                                    <div class="filter-item">
+                                        <input type="checkbox" name="categories" id="landmark" class="filter-checkbox">
+                                        <label for="landmark" class="filter-item-text">
+                                            <span class="checkbox">
+                                                <img src="assets/img/mark.svg" alt="checkbox" class="checkbox-mark">
+                                            </span>
+                                            Landmarks
+                                        </label>
+                                    </div>
+        
+                                    <div class="filter-item">
+                                        <input type="checkbox" name="categories" id="cities" class="filter-checkbox">
+                                        <label for="cities" class="filter-item-text">
+                                            <span class="checkbox">
+                                                <img src="assets/img/mark.svg" alt="checkbox" class="checkbox-mark">
+                                            </span>
+                                            Cities
+                                        </label>
+                                    </div>
+        
+                                    <div class="filter-item">
+                                        <input type="checkbox" name="categories" id="nature" class="filter-checkbox">
+                                        <label for="nature" class="filter-item-text">
+                                            <span class="checkbox">
+                                                <img src="assets/img/mark.svg" alt="checkbox" class="checkbox-mark">
+                                            </span>
+                                            Nature
+                                        </label>
+                                    </div>
+                                </div>
+        
+                                <div class="filter-section-2">
+                                    <h3 class="filter-title">
+                                        Price
+                                    </h3>
+        
+                                    <div class="filter-item">
+                                        <input type="checkbox" name="categories" id="price-option-1" class="filter-checkbox">
+                                        <label for="price-option-1" class="filter-item-text">
+                                            <span class="checkbox">
+                                                <img src="assets/img/mark.svg" alt="checkbox" class="checkbox-mark">
+                                            </span>
+                                            Less than $20
+                                        </label>
+                                    </div>
+        
+                                    <div class="filter-item">
+                                        <input type="checkbox" name="categories" id="price-option-2" class="filter-checkbox">
+                                        <label for="price-option-2" class="filter-item-text">
+                                            <span class="checkbox">
+                                                <img src="assets/img/mark.svg" alt="checkbox" class="checkbox-mark">
+                                            </span>
+                                            $20 - $100
+                                        </label>
+                                    </div>
+        
+                                    <div class="filter-item">
+                                        <input type="checkbox" name="categories" id="price-option-3" class="filter-checkbox">
+                                        <label for="price-option-3" class="filter-item-text">
+                                            <span class="checkbox">
+                                                <img src="assets/img/mark.svg" alt="checkbox" class="checkbox-mark">
+                                            </span>
+                                            $100 - $200
+                                        </label>
+                                    </div>
+        
+                                    <div class="filter-item">
+                                        <input type="checkbox" name="categories" id="price-option-4" class="filter-checkbox">
+                                        <label for="price-option-4" class="filter-item-text">
+                                            <span class="checkbox">
+                                                <img src="assets/img/mark.svg" alt="checkbox" class="checkbox-mark">
+                                            </span>
+                                            More than $200
+                                        </label>
+                                    </div>
+        
+                                </div>
+
+                                <div class="filter-optional">
+                                    <div class="filter-section-3">
+                                        <h3 class="filter-title">
+                                            Colours
+                                        </h3>
+
+                                        <div class="filter-item">
+                                            <input type="checkbox" name="all" id="all" class="filter-checkbox">
+                                            <label for="all" class="filter-item-text">
+                                                <span class="checkbox checkbox-col check-all">
+                                                    <img src="assets/img/mark.svg" alt="checkbox" class="checkbox-mark checkbox-mark-col">
+                                                </span>
+                                                All colours
+                                            </label>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-1-of-3">
+                                                <div class="filter-item">
+                                                    <input type="checkbox" name="black" id="black" class="filter-checkbox">
+                                                    <label for="black" class="filter-item-text">
+                                                        <span class="checkbox checkbox-col black">
+                                                            <img src="assets/img/mark-invert.svg" alt="checkbox" class="checkbox-mark checkbox-mark-col">
+                                                        </span>
+                                                        Black
+                                                    </label>
+                                                </div>
+
+                                                <div class="filter-item">
+                                                    <input type="checkbox" name="blue" id="blue" class="filter-checkbox">
+                                                    <label for="blue" class="filter-item-text">
+                                                        <span class="checkbox checkbox-col blue">
+                                                            <img src="assets/img/mark.svg" alt="checkbox" class="checkbox-mark checkbox-mark-col">
+                                                        </span>
+                                                        Blue
+                                                    </label>
+                                                </div>
+
+                                                <div class="filter-item">
+                                                    <input type="checkbox" name="purple" id="purple" class="filter-checkbox">
+                                                    <label for="purple" class="filter-item-text">
+                                                        <span class="checkbox checkbox-col purple">
+                                                            <img src="assets/img/mark.svg" alt="checkbox" class="checkbox-mark checkbox-mark-col">
+                                                        </span>
+                                                        Purple
+                                                    </label>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-1-of-3">
+                                                <div class="filter-item">
+                                                    <input type="checkbox" name="white" id="white" class="filter-checkbox">
+                                                    <label for="white" class="filter-item-text">
+                                                        <span class="checkbox checkbox-col white">
+                                                            <img src="assets/img/mark.svg" alt="checkbox" class="checkbox-mark checkbox-mark-col">
+                                                        </span>
+                                                        White
+                                                    </label>
+                                                </div>
+
+                                                <div class="filter-item">
+                                                    <input type="checkbox" name="green" id="green" class="filter-checkbox">
+                                                    <label for="green" class="filter-item-text">
+                                                        <span class="checkbox checkbox-col green">
+                                                            <img src="assets/img/mark.svg" alt="checkbox" class="checkbox-mark checkbox-mark-col">
+                                                        </span>
+                                                        Green
+                                                    </label>
+                                                </div>
+
+                                                <div class="filter-item">
+                                                    <input type="checkbox" name="yellow" id="yellow" class="filter-checkbox">
+                                                    <label for="yellow" class="filter-item-text">
+                                                        <span class="checkbox checkbox-col yellow">
+                                                            <img src="assets/img/mark.svg" alt="checkbox" class="checkbox-mark checkbox-mark-col">
+                                                        </span>
+                                                        Yellow
+                                                    </label>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-1-of-3">
+                                                <div class="filter-item">
+                                                    <input type="checkbox" name="red" id="red" class="filter-checkbox">
+                                                    <label for="red" class="filter-item-text">
+                                                        <span class="checkbox checkbox-col red">
+                                                            <img src="assets/img/mark.svg" alt="checkbox" class="checkbox-mark checkbox-mark-col">
+                                                        </span>
+                                                        Red
+                                                    </label>
+                                                </div>
+
+                                                <div class="filter-item">
+                                                    <input type="checkbox" name="orange" id="orange" class="filter-checkbox">
+                                                    <label for="orange" class="filter-item-text">
+                                                        <span class="checkbox checkbox-col orange">
+                                                            <img src="assets/img/mark.svg" alt="checkbox" class="checkbox-mark checkbox-mark-col">
+                                                        </span>
+                                                        Orange
+                                                    </label>
+                                                </div>
+
+                                                <div class="filter-item">
+                                                    <input type="checkbox" name="pink" id="pink" class="filter-checkbox">
+                                                    <label for="pink" class="filter-item-text">
+                                                        <span class="checkbox checkbox-col pink">
+                                                            <img src="assets/img/mark.svg" alt="checkbox" class="checkbox-mark checkbox-mark-col">
+                                                        </span>
+                                                        Pink
+                                                    </label>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="filter-section-4">
+                                        
+                                        <div class="row">
+                                            <div class="col-1-of-2-fix">
+                                                <a href="" class="btn btn-white btn-fix">
+                                                    Clear
+                                                </a>
+                                            </div>
+    
+                                            <div class="col-1-of-2-fix">
+                                                <a href="" class="btn btn-black btn-fix">
+                                                    Save
+                                                </a>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-1-of-4">
+                        <div class="card-container">
+                            <div class="card card-red">
+                                <div class="card-preview card-1">
+                                    <a href="" class="btn btn-black btn-card">Add to cart</a>
+                                </div>
+                                <div class="card-desc">
+                                    <p class="group">People</p>
+                                    <h4 class="card-title">Red Bench</h4>
+                                    <p class="card-price">$ 3.89</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="card-preview card-2">
+                                    <a href="" class="btn btn-black btn-card">Add to cart</a>
+                                </div>
+                                <div class="card-desc">
+                                    <p class="group">People</p>
+                                    <h4 class="card-title">Man</h4>
+                                    <p class="card-price">$ 100.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-4">
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="card-preview card-3">
+                                    <a href="" class="btn btn-black btn-card">Add to cart</a>
+                                </div>
+                                <div class="card-desc">
+                                    <p class="group">Food</p>
+                                    <h4 class="card-title">Egg Balloon</h4>
+                                    <p class="card-price">$ 93.89</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="card-preview card-4">
+                                    <a href="" class="btn btn-black btn-card">Add to cart</a>
+                                </div>
+                                <div class="card-desc">
+                                    <p class="group">Landmarks</p>
+                                    <h4 class="card-title">Architecture</h4>
+                                    <p class="card-price">$ 101.00</p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+
+                    <div class="col-1-of-4">
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="card-preview card-3">
+                                    <a href="" class="btn btn-black btn-card">Add to cart</a>
+                                </div>
+                                <div class="card-desc">
+                                    <p class="group">Food</p>
+                                    <h4 class="card-title">Egg Balloon</h4>
+                                    <p class="card-price">$ 93.89</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="card-preview card-4">
+                                    <a href="" class="btn btn-black btn-card">Add to cart</a>
+                                </div>
+                                <div class="card-desc">
+                                    <p class="group">Landmarks</p>
+                                    <h4 class="card-title">Architecture</h4>
+                                    <p class="card-price">$ 101.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+</body>
+
+</html>
